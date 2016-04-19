@@ -1,0 +1,10 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <p>Hello, {{user.name}} </p>
+    <div ng-controller="DashCtrl">
+    <canvas id="pie" class="chart chart-pie"  chart-data="data" chart-labels="labels">
+    </canvas>
+    </div>
+    <i class="icon ion-star"></i>
+  </ion-content>
+</ion-view>
